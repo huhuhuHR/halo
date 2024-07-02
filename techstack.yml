@@ -1,0 +1,352 @@
+repo_name: huhuhuHR/halo
+report_id: 0eb27abbd68969d8ea4a900e0f9a0fad
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:29:16+00:00'
+requested_by: ruibaby
+provider: github
+branch: master
+detected_tools_count: 24
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/halo
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/huhuhuHR/halo/blob/master/src/main/resources/static/halo-backend/plugins/bootstrap/js/bootstrap.js
+  detection_source: src/main/resources/static/halo-backend/plugins/bootstrap/js/bootstrap.js
+  last_updated_by: RYAN0UP_
+  last_updated_on: 2018-01-21 10:08:26.000000000 Z
+- name: Apache FreeMarker
+  description: A free Java-based template engine
+  website_url: http://freemarker.incubator.apache.org/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/4456/ymCgaIO0_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/halo
+  detection_source: Repo Metadata
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/huhuhuHR/halo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: ruibaby
+  last_updated_on: 2018-10-18 12:24:51.000000000 Z
+- name: Ehcache
+  description: Java's Most Widely-Used Cache
+  website_url: http://ehcache.org/
+  version: 3.6.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cache
+  image_url: https://img.stackshare.io/service/3093/EhcacheTwitterIcon.png
+  detection_source_url: https://github.com/huhuhuHR/halo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: ruibaby
+  last_updated_on: 2019-01-20 13:03:35.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/halo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: RYAN0UP_
+  last_updated_on: 2018-05-04 17:01:34.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/huhuhuHR/halo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: RYAN0UP_
+  last_updated_on: 2018-01-21 10:08:26.000000000 Z
+- name: Apache Maven
+  description: Apache build manager for Java projects.
+  website_url: http://maven.apache.org/
+  version: 3.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/package_manager/977/default_9833f2ef0bbc2a946b4cc5e9307264033361076b.png
+  detection_source_url: https://github.com/huhuhuHR/halo/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: ruibaby
+  last_updated_on: 2019-01-16 11:16:43.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/halo
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/halo
+  detection_source: Repo Metadata
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/huhuhuHR/halo/blob/master/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: ruibaby
+  last_updated_on: 2018-12-07 16:56:03.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/halo/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: RYAN0UP_
+  last_updated_on: 2018-04-09 09:38:21.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/huhuhuHR/halo
+  detection_source: Repo Metadata
+- name: cn.hutool:hutool-core
+  description: Hutool核心
+  version: 4.4.2
+  license: FSFAP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/halo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: ruibaby
+  last_updated_on: 2019-02-22 08:17:37.000000000 Z
+  vulnerabilities:
+  - name: hutool Buffer Overflow vulnerability
+    cve_id: CVE-2023-42276
+    cve_url: https://github.com/advisories/GHSA-rxgf-r843-g53h
+    detected_date: Sep 12
+    severity: critical
+    first_patched:
+  - name: hutool Buffer Overflow vulnerability
+    cve_id: CVE-2023-42277
+    cve_url: https://github.com/advisories/GHSA-7p8c-crfr-q93p
+    detected_date: Sep 12
+    severity: critical
+    first_patched:
+  - name: hutool Buffer Overflow vulnerability
+    cve_id: CVE-2023-42278
+    cve_url: https://github.com/advisories/GHSA-rr66-qh5m-w6mx
+    detected_date: Sep 12
+    severity: high
+    first_patched:
+  - name: HuTool XML parsing module has blind XXE vulnerability
+    cve_id: CVE-2023-3276
+    cve_url: https://github.com/advisories/GHSA-p2qf-9vp6-3jjq
+    detected_date: Jun 17
+    severity: high
+    first_patched:
+  - name: Insecure Temporary File in HuTool
+    cve_id: CVE-2023-33695
+    cve_url: https://github.com/advisories/GHSA-7mcw-xmx3-7p8m
+    detected_date: Jun 15
+    severity: high
+    first_patched: 5.8.19
+  - name: HuTool vulnerable to Uncontrolled Resource Consumption
+    cve_id: CVE-2022-4565
+    cve_url: https://github.com/advisories/GHSA-47vx-fqr5-j2gw
+    detected_date: Dec 17
+    severity: high
+    first_patched: 5.8.11
+  - name: hutool-core discovered to contain an infinite loop in the StrSplitter.splitByRegex
+      function
+    cve_id: CVE-2023-51075
+    cve_url: https://github.com/advisories/GHSA-7m7h-rgvp-3v4r
+    detected_date: Dec 29
+    severity: high
+    first_patched: 5.8.24
+- name: com.atlassian.commonmark:commonmark
+  description: Core of commonmark-java
+  version: 0.12.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/halo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: naughty-man
+  last_updated_on: 2019-03-15 10:01:05.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/halo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: ruibaby
+  last_updated_on: 2018-11-14 14:45:13.000000000 Z
+- name: commons-collections:commons-collections
+  description: Types that extend and augment the Java Collections Framework
+  version: 3.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/halo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: naughty-man
+  last_updated_on: 2019-03-15 10:01:05.000000000 Z
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/halo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: ruibaby
+  last_updated_on: 2019-02-22 08:17:37.000000000 Z
+- name: net.coobird:thumbnailator
+  description: Thumbnailator - a thumbnail generation library for Java
+  version: 0.4.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/halo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: ruibaby
+  last_updated_on: 2018-09-14 03:32:44.000000000 Z
+- name: org.ehcache:ehcache
+  description: Ehcache single jar, containing all modules
+  version: 3.6.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/halo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: ruibaby
+  last_updated_on: 2019-01-20 13:03:35.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  version: 1.18.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/halo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: ruibaby
+  last_updated_on: 2019-01-20 13:03:35.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/halo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: ruibaby
+  last_updated_on: 2018-12-08 08:40:26.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/halo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: ruibaby
+  last_updated_on: 2018-12-08 08:40:26.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/halo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: ruibaby
+  last_updated_on: 2018-12-08 08:40:26.000000000 Z
